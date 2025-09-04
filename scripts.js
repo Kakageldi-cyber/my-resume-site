@@ -87,17 +87,10 @@ function renderSkills() {
 function setupDownloadPdf() {
     const btn = document.getElementById('download-pdf');
     btn.addEventListener('click', () => {
-        alert('PDF резюме пока не реализовано!');
-    });
-
-}
-
-function setupDownloadPdf() {
-    const btn = document.getElementById('download-pdf');
-    btn.addEventListener('click', () => {
-        window.open('resume.pdf', '_blank');
+        window.open('resume.pdf', '_blank'); // подставь свой PDF
     });
 }
+
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -107,6 +100,5 @@ document.addEventListener('DOMContentLoaded', () => {
     setupDownloadPdf();
     revealOnScroll();
 });
-
 
 window.addEventListener('scroll', revealOnScroll);
