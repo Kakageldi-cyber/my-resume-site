@@ -87,7 +87,7 @@ function renderSkills() {
 function setupDownloadPdf() {
     const btn = document.getElementById('download-pdf');
     btn.addEventListener('click', () => {
-        alert('PDF резюме пока не реализовано, добавь свой файл и ссылку!');
+        alert('PDF резюме пока не реализовано!');
     });
 
 }
@@ -107,5 +107,6 @@ document.addEventListener('DOMContentLoaded', () => {
     setupDownloadPdf();
     revealOnScroll();
 });
+
 
 window.addEventListener('scroll', revealOnScroll);
