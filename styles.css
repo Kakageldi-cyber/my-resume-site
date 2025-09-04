@@ -297,3 +297,97 @@ h2 {
         gap: 15px;
     }
 }
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .nav-links li a {
+        font-size: 1rem;
+        display: block;
+        padding: 8px 0;
+    }
+
+    main {
+        padding: 0 15px 60px;
+        margin-top: 30px;
+    }
+
+    .photo-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .photo-placeholder {
+        width: 180px;
+        height: 240px;
+    }
+
+    #download-pdf {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    #contact {
+        margin: 40px auto 0;
+        max-width: 100%;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .gallery-item {
+        height: 120px;
+        font-size: 1rem;
+    }
+
+    .contact-card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 1.3rem;
+    }
+
+    .nav-links {
+        gap: 8px;
+    }
+
+    .photo-placeholder {
+        width: 160px;
+        height: 200px;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .experience-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #skills ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
