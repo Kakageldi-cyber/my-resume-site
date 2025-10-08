@@ -1,4 +1,3 @@
-/* === Основные стили === */
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -11,7 +10,6 @@ body {
     font-family: 'Inter', sans-serif;
   }
   
-  /* Контейнер */
   .container {
     max-width: 800px;
     margin: 2rem auto;
@@ -21,7 +19,6 @@ body {
     border-radius: 10px;
   }
   
-  /* Заголовки */
   header {
     text-align: center;
     margin-bottom: 2rem;
@@ -46,7 +43,6 @@ body {
     font-size: 1.4rem;
   }
   
-  /* Опыт работы */
   .experience-item {
     background-color: #f9fcff;
     border: 1px solid #dbe9f3;
@@ -68,7 +64,6 @@ body {
     font-weight: bold;
   }
   
-  /* Списки */
   ul.list {
     padding-left: 1.2rem;
     list-style: disc;
@@ -87,7 +82,6 @@ body {
     padding-left: 0.8rem;
   }
   
-  /* Контакты */
   .contacts a {
     color: #007acc;
     text-decoration: none;
@@ -99,7 +93,6 @@ body {
     text-decoration: underline;
   }
   
-  /* Общие секции */
   section p, section ul {
     background-color: #fdfdfd;
     padding: 0.8rem 1rem;
@@ -108,7 +101,6 @@ body {
     margin: 0;
   }
   
-  /* Адаптация под мобильные устройства */
   @media (max-width: 600px) {
     .container {
       margin: 1rem;
@@ -141,7 +133,6 @@ body {
     }
   }
   
-  /* === Портфолио === */
 #portfolio {
     margin-top: 3rem;
   }
@@ -169,4 +160,5 @@ body {
     transform: translateY(-4px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   }
+
   
